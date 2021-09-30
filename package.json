@@ -1,0 +1,31 @@
+{
+  "name": "thread-info",
+  "version": "0.0.1",
+  "description": "show thread info",
+  "main": "dispatch.js",
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "build": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyj1991/thread-info.git"
+  },
+  "author": "hyj1991 <yeekwanvong@gmail.com>",
+  "license": "BSD-2-Clause",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/hyj1991/thread-info/issues"
+  },
+  "files": [
+    "src",
+    "binding.gyp",
+    "dispatch.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "homepage": "https://github.com/hyj1991/thread-info#readme",
+  "dependencies": {
+    "nan": "^2.15.0"
+  }
+}
